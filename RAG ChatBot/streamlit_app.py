@@ -2,7 +2,6 @@ import os
 import uuid
 import shutil
 import streamlit as st
-# pyrefly: ignore [missing-import]
 from pinecone import Pinecone
 from ingest import ingest_documents
 from rag_chain import ask_question
